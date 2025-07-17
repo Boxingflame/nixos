@@ -7,7 +7,7 @@
       enableStrongSwan = true;
     };
     firewall = {
-      enable = true;
+      enable = false;
       allowedTCPPorts = [
         6969
         25565
