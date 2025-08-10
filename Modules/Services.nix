@@ -1,11 +1,11 @@
-{ config, pkgs, ... }:
+{ config, pkgs-unstable, ... }:
 
 {
   services = {
      ollama = {
       enable = true;
       acceleration = "rocm";
-      rocmOverrideGfx = "11.0.0";
+      rocmOverrideGfx = "10.3.0";
       # environmentVariables = {
       #   OLLAMA_DEBUG = "1";
       # };
@@ -15,6 +15,7 @@
         "deepseek-r1:8b"
         "gpt-oss:20b"
       ];
+      package = pkgs-unstable.ollama;
     };
     
     open-webui.enable = true;
