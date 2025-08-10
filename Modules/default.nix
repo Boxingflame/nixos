@@ -8,6 +8,7 @@
     ./Networking.nix
     ./Overlays.nix
     ./Pipewire.nix
+    ./Services.nix
     ./Systemd.nix
     ./Hardware.nix
     ./Locale.nix
