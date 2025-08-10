@@ -3,7 +3,7 @@
 {
   services = {
      ollama = {
-      enable = false;
+      enable = true;
       acceleration = "rocm";
       rocmOverrideGfx = "11.0.0";
       # environmentVariables = {
