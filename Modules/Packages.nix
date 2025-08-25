@@ -17,6 +17,7 @@
     packwiz
     zulu
     vscode
+    nexusmods-app-unfree
     
     #sort later
     kdePackages.qtmultimedia
