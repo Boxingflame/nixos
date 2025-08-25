@@ -18,6 +18,9 @@
     zulu
     vscode
     nexusmods-app-unfree
+    protontricks
+    winetricks
+    wineWowPackages.stagingFull
     
     #sort later
     kdePackages.qtmultimedia
