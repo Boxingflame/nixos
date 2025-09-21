@@ -20,5 +20,5 @@
     ./Zsh.nix
   ];
 
-  config.nixos.pkgs.wallpaper-engine-kde-plugin.enable = true;
+  config.nixos.pkgs.wallpaper-engine-kde-plugin.enable = false;
 }
