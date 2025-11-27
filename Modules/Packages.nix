@@ -14,6 +14,7 @@
     vesktop
     prism-overlayed
     lutris-overlayed
+    heroic
     packwiz
     zulu
     vscode
