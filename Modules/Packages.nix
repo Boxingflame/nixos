@@ -15,6 +15,7 @@
     prism-overlayed
     lutris-overlayed
     heroic
+    beammp-launcher
     packwiz
     zulu
     vscode
