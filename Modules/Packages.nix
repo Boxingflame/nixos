@@ -4,7 +4,7 @@
   environment.systemPackages = with pkgs; [
     vulkan-tools
     lact
-    glxinfo
+    mesa-demos
     fastfetch
     git
     wget
