@@ -4,8 +4,9 @@
   networking = {
     networkmanager = {
       enable = true;
-      enableStrongSwan = true;
-    };
+      plugins = with pkgs; [
+        networkmanager-strongswan
+      ];    };
     firewall = {
       enable = false;
       allowedTCPPorts = [
