@@ -4,8 +4,9 @@
   fonts.packages = with pkgs; [
     corefonts
     vista-fonts
-    # nerd-fonts.meslo-lg # 25.05 pkg
     noto-fonts
-    noto-fonts-emoji
+    noto-fonts-color-emoji
+    nerd-fonts.symbols-only
+    ibm-plex
   ];
 }
