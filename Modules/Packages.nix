@@ -19,7 +19,6 @@
     packwiz
     zulu
     vscode
-    nexusmods-app-unfree
     protontricks
     winetricks
     wineWowPackages.stagingFull
