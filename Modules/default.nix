@@ -9,6 +9,7 @@
     ./Overlays.nix
     ./Pipewire.nix
     ./Services.nix
+    ./SSH.nix
     ./Systemd.nix
     ./Hardware.nix
     ./Locale.nix
