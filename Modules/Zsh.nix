@@ -1,5 +1,21 @@
 { config, pkgs, ... }:
 
+let
+  zshInit =
+    with pkgs;
+    writeShellApplication {
+      name = "zshInitScript";
+      runtimeInputs = [ fastfetch ];
+      text = ''
+        set +u
+        if [[ -n "$SSH_TTY" ]]; then
+          fastfetch
+        else
+          exit 0
+        fi
+      '';
+    };
+in
 {
   users.defaultUserShell = pkgs.zsh;
   environment.shells = with pkgs; [ zsh ];
