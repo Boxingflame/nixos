@@ -8,7 +8,7 @@
 		(self: super: {
 			lutris-overlayed = with pkgs; lutris.override {
 				extraPkgs = pkgs: [
-					wineWowPackages.stagingFull
+					wineWow64Packages.stagingFull
 				];
 			};
 		})
