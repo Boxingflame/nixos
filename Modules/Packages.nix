@@ -21,7 +21,7 @@
     vscode
     protontricks
     winetricks
-    wineWowPackages.stagingFull
+    wineWow64Packages.stagingFull
     
     #sort later
     kdePackages.qtmultimedia
