@@ -7,7 +7,7 @@
 
   boot = {
     plymouth.enable = true;
-    kernelPackages = pkgs.linuxPackages_latest;
+    # kernelPackages = pkgs.linuxPackages_latest;
     kernelModules = [ "kvm-amd" ];
     kernelParams = ["quiet" "amdgpu.ppfeaturemask=0xffffffff" ];
     loader = {
