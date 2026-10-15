@@ -16,9 +16,5 @@
     };
   };
 
-  systemd.user.services.plasma-xdg-desktop-portal-kde = {
-    enable = true;
-  };
-
   security.pam.services.login.enableKwallet = true;
 }
